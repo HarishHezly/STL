@@ -145,7 +145,7 @@ int main()
     string new_name;
     cin >> new_name;
 
-    cout << "Enter new age for"<< new_name <<": ";
+    cout << "Enter new age for "<< new_name <<": ";
     int new_age;
     cin >> new_age;
 
