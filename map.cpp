@@ -25,6 +25,10 @@ using namespace std;
 //     int someData;
 // }
 
+void myFunc (map<char,int> param)
+{
+    int x = param['a'] + param['b'];
+}
 
 int main()
 {
@@ -35,6 +39,12 @@ int main()
     Marks["Science"] = 80;
     Marks["BM"] = 90;
 
+    map<char,int> myparam;
+
+    myparam['a'] = 30;
+    myparam['b'] = 76;
+
+    myFunc(myparam);
     //Marks.insert( pair<string,int>("Zoology",96)) ;
     //Marks.insert( pair<string,int>("BM",76)) ;
     //Marks.insert( pair<string,int>("Science",80)) ;
